@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("No Connection to Database");
 }
 
-$sql = "SELECT * FROM table_databasemahasiswa";
+$sql = "SELECT * FROM databasemahasiswa";
 
 if ($conn->query($sql)) {
     $hasil = $conn->query($sql);
